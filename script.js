@@ -212,7 +212,7 @@ const updateCartPrice = () => {
                              </h3>    
                                 
                             
-                            <p class="font-semibold text-sm text-gray-600">৳${ item.price * item.quantity}</p>
+                            <p class="font-bold text-sm text-gray-600">৳${ item.price * item.quantity}</p>
                              
                             
                         </div>
