@@ -39,7 +39,7 @@ Return Value: A new array containing the results of calling the provided functio
 filter():
 Purpose: To create a new array containing only the elements from the original array that satisfy a specified condition. The provided function acts as a test, and only elements for which the function returns a truthy value are included in the new array.
 Return Value: A new array containing only the elements that pass the test implemented by the provided function. If no elements pass the test, an empty array is returned. 
----
+
 
 ## 3. Arrow Functions in ES6
 
