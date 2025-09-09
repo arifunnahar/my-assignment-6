@@ -89,4 +89,19 @@ console.log(first, second); // apple banana
 
 ## 5. Template Literals in ES6
 
+Template literals, introduced in ES6, are a modern way to create strings in JavaScript using backticks ( `` ) instead of single or double quotes. They offer several advantages, including multi-line string support and string interpolation. 
 
+String interpolation
+You can embed variables, expressions, or function calls directly within a string using the ${expression} syntax. This makes dynamic strings more readable than traditional string concatenation with the + operator. 
+Example:
+javascript
+const name = 'Alex';
+const age = 30;
+
+// Traditional concatenation
+const oldWay = 'My name is ' + name + ' and I am ' + age + ' years old.';
+console.log(oldWay); // "My name is Alex and I am 30 years old."
+
+// Template literal
+const newWay = `My name is ${name} and I am ${age} years old.`;
+console.log(newWay); // "My name is Alex and I am 30 years old.
