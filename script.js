@@ -148,14 +148,14 @@ const showDetails = (id) => {
       dialog.id = "my_modal";
       dialog.className = "modal modal-bottom sm:modal-middle";
       dialog.innerHTML = `
-        <div class="modal-box space-y-2">
-          <h3 class="text-2xl font-bold">${detail.name}</h3>
+        <div class="modal-box space-y-2 ">
+          <h3 class="text-xl font-bold">${detail.name}</h3>
           <figure class="overflow-hidden rounded-md">
             <img class="w-full h-60 object-cover" src="${detail.image}" alt="plant" />
           </figure>
-          <h1 class="font-bold text-xl">Category: <span class="font-normal">${detail.category}</span></h1>
-          <h1 class="font-bold text-xl">Price: <span class="font-normal">৳${detail.price}</span></h1>
-          <p class="font-bold text-lg">Description: <span class="font-normal">${detail.description}</span></p>
+          <h1 class="font-bold text-lg">Category: <span class="font-normal">${detail.category}</span></h1>
+          <h1 class="font-bold text-md">Price: <span class="font-normal">৳${detail.price}</span></h1>
+          <p class="font-bold text-md">Description: <span class="font-normal">${detail.description}</span></p>
           <div class="modal-action">
             <form method="dialog">
               <button class="btn">Close</button>
