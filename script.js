@@ -26,6 +26,9 @@ const loading = (status) => {
 // Load Category
 const loadCategory = async () => {
   try {
+
+    loading(true);
+    
     categoryContainer.innerHTML = "";
     const allTypesLi = document.createElement("li");
     allTypesLi.id = "all-types";
@@ -51,7 +54,10 @@ const loadCategory = async () => {
   }
 };
 
+
+
 // fetch all post
+
 const fetchAllPost = async () => {
   try {
     loading(true);
