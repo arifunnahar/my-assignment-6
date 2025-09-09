@@ -216,7 +216,7 @@ const updateCartPrice = () => {
                              
                             
                         </div>
-                        <button onclick="removeItem(${index})" class="btn btn-ghost btn-xs hover:bg-red-100 p-1">
+                        <button onclick="removeItem(${index})" class="btn btn-ghost btn-xs hover:bg-red-400 p-1">
                            <i class="ri-close-line text-lg"></i>
                         </button>
                     </div>`;
