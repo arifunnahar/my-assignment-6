@@ -33,7 +33,7 @@ const loadCategory = async () => {
     const allTypesLi = document.createElement("li");
     allTypesLi.id = "all-types";
     allTypesLi.className =
-      "hover:bg-green-700 hover:text-white rounded-lg cursor-pointer px-3 py-2 active-li bg-green-700 text-white";
+      "hover:bg-green-400 hover:text-white rounded-lg cursor-pointer px-3 py-2 active-li bg-green-700 text-white";
     allTypesLi.textContent = "All Types";
     categoryContainer.appendChild(allTypesLi);
 
@@ -45,7 +45,7 @@ const loadCategory = async () => {
       const li = document.createElement("li");
       li.id = cat.id;
       li.className =
-        "hover:bg-green-700 hover:text-white rounded-lg cursor-pointer px-3 py-2 active-li";
+        "hover:bg-green-400 hover:text-white rounded-lg cursor-pointer px-3 py-2 active-li";
       li.textContent = cat.category_name;
       categoryContainer.appendChild(li);
     });
