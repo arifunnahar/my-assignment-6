@@ -217,7 +217,7 @@ const updateCartPrice = () => {
                             
                         </div>
                         <button onclick="removeItem(${index})" class="btn btn-ghost btn-xs hover:bg-red-400 p-1">
-                           <i class="ri-close-line text-lg"></i>
+                          <i class="fa-solid fa-xmark text-lg"></i> 
                         </button>
                     </div>`;
     addCartContainer.appendChild(div);
